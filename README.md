@@ -50,3 +50,5 @@ Multi-monitor support
 Configurable resolution via UI
 
 Additional 3D effects (e.g., chromatic aberration, DOF)
+
+https://github.com/Laughingoctopus00/Clean-3d-1.0/releases/tag/v2.0
