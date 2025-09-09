@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Provide missing HLSL metadata so MSBuild calls dxc with a target/profile -->
+  <ItemGroup>
+    <FxCompile Include="BarrierCompute.hlsl">
+      <EntryPointName>CSMain</EntryPointName>
+      <ShaderType>Compute</ShaderType>
+      <ShaderModel>cs_5_0</ShaderModel>
+    </FxCompile>
+    <FxCompile Include="ParallaxBarrierPS.hlsl">
+      <EntryPointName>PSMain</EntryPointName>
+      <ShaderType>Pixel</ShaderType>
+      <ShaderModel>ps_5_0</ShaderModel>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Disable MSBuild HLSL compilation to avoid invoking dxc.exe during the build.
+       Shaders will still be compiled at runtime via D3DCompileFromFile in the application.
+  -->
+  <ItemDefinitionGroup>
+    <FxCompile>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </FxCompile>
+  </ItemDefinitionGroup>
+</Project>

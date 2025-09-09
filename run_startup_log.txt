@@ -1,0 +1,12 @@
+WinMain entered
+Creating LightWeight3DApp
+Calling app.Initialize
+app.Initialize returned false
+WinMain entered
+Creating LightWeight3DApp
+Calling app.Initialize
+app.Initialize returned false
+WinMain entered
+Creating LightWeight3DApp
+Calling app.Initialize
+app.Initialize returned false

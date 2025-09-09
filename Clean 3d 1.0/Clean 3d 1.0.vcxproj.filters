@@ -13,24 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{5A1C4A3E-1F6A-4BDA-A6C4-000000000000}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enhanced3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="VertexShader.hlsl">
-      <Filter>Source Files</Filter>
-    </FxCompile>
-    <FxCompile Include="Effects.hlsl">
-      <Filter>Source Files</Filter>
+      <Filter>Shader Files</Filter>
     </FxCompile>
     <FxCompile Include="DepthCompute.hlsl">
-      <Filter>Source Files</Filter>
+      <Filter>Shader Files</Filter>
     </FxCompile>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="FogCompute.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="BarrierCompute.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="ParallaxBarrierPS.hlsl">
+      <Filter>Shader Files</Filter>
+    </FxCompile>
+    <FxCompile Include="BarrierCompute.hlsl" />
+    <FxCompile Include="ParallaxBarrierPS.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SettingsDialog.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Main.cpp.bak" />
+    <None Include="VertexShader.hlsl.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="PixelShader.hlsl.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="DepthCompute.hlsl.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="FogCompute.hlsl.inc">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="SettingsDialog.rc.new" />
   </ItemGroup>
 </Project>

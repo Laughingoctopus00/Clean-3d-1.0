@@ -1,20 +1,20 @@
 // VertexShader.hlsl
 struct VSInput
 {
-    float3 Position : POSITION;
-    float2 UV : TEXCOORD0;
+    float3 position : POSITION;
+    float2 uv : TEXCOORD;
 };
 
 struct VSOutput
 {
-    float4 Position : SV_POSITION;
-    float2 UV : TEXCOORD0;
+    float4 position : SV_POSITION;
+    float2 uv : TEXCOORD;
 };
 
 VSOutput VSMain(VSInput input)
 {
     VSOutput output;
-    output.Position = float4(input.Position, 1.0);
-    output.UV = input.UV;
+    output.position = float4(input.position, 1.0);
+    output.uv = input.uv;
     return output;
 }
