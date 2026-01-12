@@ -1,5 +1,5 @@
 Clean3D - Real-Time 3D Desktop Overlay
-Clean3D is a lightweight, DirectX 12-based application that transforms your desktop into a real-time 3D experience using parallax barrier and lenticular effects. Designed for high-resolution displays (optimized for 4096x2160 @ 104 PPI), it captures your desktop and applies depth-based visual effects, creating an immersive pseudo-3D overlay without requiring specialized hardware.
+Clean3D is a lightweight, DirectX 12-based application that transforms your desktop into a real-time 3D experience using parallax barrier and lenticular effects. Designed for high-resolution displays (optimized for 4096x2160 @ 104 PPI CAN BE CALIBRATED TO YOUR SCREEN), it captures your desktop and applies depth-based visual effects, creating an immersive pseudo-3D overlay without requiring specialized hardware.
 Features
 Parallax Barrier Effect: Adds thin vertical black strips (~0.25 pixels wide) to interleave left/right views, simulating depth as you move your head.
 
