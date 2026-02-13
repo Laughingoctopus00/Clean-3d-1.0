@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "Clean3DMinimal", "Clean3DMinimal.vcxproj", "{74F16D98-E639-4E5A-A17C-1246A3A9E3A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F16D98-E639-4E5A-A17C-1246A3A9E3A1}.Debug|x64.ActiveCfg = Debug|x64
+		{74F16D98-E639-4E5A-A17C-1246A3A9E3A1}.Debug|x64.Build.0 = Debug|x64
+		{74F16D98-E639-4E5A-A17C-1246A3A9E3A1}.Release|x64.ActiveCfg = Release|x64
+		{74F16D98-E639-4E5A-A17C-1246A3A9E3A1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
